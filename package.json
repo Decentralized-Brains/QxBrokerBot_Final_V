@@ -10,12 +10,8 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.19.0",
-=======
-    "react-icons": "^4.12.0",
->>>>>>> 3ef829272f4ca3e8bc83cc89b5158d138380e18e
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
