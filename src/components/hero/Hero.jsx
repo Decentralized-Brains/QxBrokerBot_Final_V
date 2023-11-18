@@ -5,25 +5,25 @@ import Rectanlge from "../assets/image/Rectangle 2.png";
 function Hero() {
   return (
     <div className="hero" id="home">
-      <div className="left relative"></div>
+      <div className="max-sm:hidden left relative"></div>
 
       <div className="right">
         <Nav />
-        <div className="absolute mx-2 left-[10rem] top-[6rem] md:left-[10%] md:top-[15%] flex gap-10 mt-16"></div>
-        <div className="flex overflow-hidden h-[100vh] w-full">
+        {/* <div className="absolute mx-2 left-[10rem] top-[6rem] md:left-[10%] md:top-[15%] flex gap-10 mt-16"></div> */}
+        <div className="flex overflow-hidden h-[100vh] ">
  
           <div className="">
-            <div className="absolute mx-2 left-[10rem] top-[8rem] md:left-[10%] md:top-[15%] flex gap-10 mt-16">
+            <div className="absolute mx-2 left-[10rem] max-sm:left-0 top-[8rem] md:left-[10%] md:top-[15%] flex gap-10 mt-16">
               <div>
                 <img
-                  className="w-full mt-10 border-2 border-white rounded-x"
+                  className="max-sm:hidden w-full mt-10 border-2 border-white rounded-x"
                   src={Rectanlge}
                   alt=""
                 />
               </div>
 
-              <div className="flex flex-col gap-6 p-4">
-                <div className="w-full md:w-[40rem] flex flex-col gap-6 p-4">
+              <div className="flex flex-col gap-6 p-4 ">
+                <div className="w-full md:w-[40rem] max-sm:w-[20rem] max-sm:absolute max-sm:left-0 flex flex-col gap-6 p-4">
                   <h1 className="font-jost text-6xl font-bold">
                     Quotex{" "}
                     <span className="text-primary-color">

@@ -29,14 +29,29 @@ code {
 .left{
   background-color: #20D374;
   width: 40%;
-
 }
+
 .right{
   background-color: white;
   width: 100%;
   border-left: 200px solid #20D374;
   border-bottom: 1200px solid transparent;
+}
 
+@media screen and (max-width: 768px) {
+  .right {
+    background-color: white;
+    width: 100%;
+    border-left: 0px solid #20D374;
+    border-bottom: 1200px solid transparent; /* Hides the .right class content on mobile screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left {
+    background-color: #20D374;
+    width: 40%; /* Hides the .right class content on mobile screens */
+  }
 }
 
 .abt{
