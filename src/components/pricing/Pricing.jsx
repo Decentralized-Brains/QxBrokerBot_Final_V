@@ -13,7 +13,7 @@ function Pricing() {
               <h1 className="text-center text-primary-color">Pricing</h1>
               <p className="text-center text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-                voluptatum.
+                voluptatum
               </p>
             </div>
             <div id="boxes" className="mt-8 flex gap-4">
