@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,400;0,500;1,400;1,500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --primary-color: #20D374;
+  --para-color: #666666;
+}
+
+
+.rightCustom{
+  border-left: 800px solid #20D374;
+  border-bottom: 1800px solid transparent;
+}
+
+
+<<<<<<< HEAD
+.abt{
+  background-color: white;
+  width: 150%;
+  border-left: 200px solid #20D374;
+  border-bottom: 1200px solid transparent;
+
+}
+
+.hero{
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+}
+=======
+>>>>>>> 3ef829272f4ca3e8bc83cc89b5158d138380e18e
+
+.pricing-right{
+  background-color: white;
+  width: 20%;
+  border-left: 200px solid #20D374;
+  border-top: 600px solid transparent;
+}
+
+
+
+
