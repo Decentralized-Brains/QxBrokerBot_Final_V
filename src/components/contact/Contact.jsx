@@ -13,11 +13,9 @@ function Contact() {
             vero!
           </p>
         </div>
-
-
-        <div className="w-[60%]  h-fit flex gap-8 shadow-2xl rounded-xl mx-auto ">
-
-          <div className="left-div overflow-hidden relative w-[30%] max-h-max bg-primary-color rounded-xl p-4">
+        
+        <div className="w-[60%] max-sm:w-[100%]  h-fit flex gap-8 shadow-2xl rounded-xl mx-auto ">
+          <div className="left-div max-sm:hidden overflow-hidden relative w-[30%] max-h-max bg-primary-color rounded-xl p-4">
             <h5 className="text-white font-semibold">Contact Information</h5>
             <p className="text-white">contact@gmail.com</p>
             <span>icon</span>  <span>icon</span>
@@ -26,9 +24,9 @@ function Contact() {
           </div>
 
 
-          <div className="right-div p-4">
-            <div className="form-section">
-              <div className="grid grid-cols-2 gap-6">
+          <div className="right-div ">
+            <div className="form-section p-2">
+              <div className="grid grid-cols-2 gap-6 max-sm:grid max-sm:grid-cols-1">
                 <div className="flex flex-col">
                   <label htmlFor="name" className="text-gray-500 font-jost">
                     First Name

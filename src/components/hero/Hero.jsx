@@ -9,7 +9,6 @@ function Hero() {
 
       <div className="right">
         <Nav />
-        {/* <div className="absolute mx-2 left-[10rem] top-[6rem] md:left-[10%] md:top-[15%] flex gap-10 mt-16"></div> */}
         <div className="flex overflow-hidden h-[100vh] ">
  
           <div className="">

@@ -2,14 +2,14 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about">
+    <div id="about" className="">
       <div className="hero ">
-        <div className="left md:relative lg:relative">
-
-          <div className="flex flex-col gap-6 max-sm:gap-12 max-sm:justify-center absolute top-10 mx-12 my-4 max-sm:top-0 max-sm:mx-4">
+        
+        <div className="left relative">
+          <div className="flex flex-col gap-6 max-sm:gap-12 max-sm:justify-center absolute top-10 mx-12 my-4 max-sm:top-0 max-sm:mx-4 max-sm:py-24">
             
             <div className="bg-white shadow-xl h-fit w-fit p-4 rounded-lg font-jost">
-              <p className="w-[15rem] font-jost">
+              <p className="w-[15rem] max-sm:w-[20rem] font-jost">
                 Your One Stop Bot Trading Management Platform
               </p>
               <h1>

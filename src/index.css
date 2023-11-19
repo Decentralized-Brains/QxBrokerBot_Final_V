@@ -47,12 +47,6 @@ code {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .left {
-    background-color: #20D374;
-    width: 40%; /* Hides the .right class content on mobile screens */
-  }
-}
 
 .abt{
   background-color: white;
@@ -74,6 +68,16 @@ code {
   border-left: 200px solid #20D374;
   border-top: 600px solid transparent;
 }
+
+@media screen and (max-width: 768px){
+  .pricing-right{
+    background-color: white;
+    width: 0%;
+    border-left: 0px solid #20D374;
+    border-top: 0px solid transparent;
+  }
+}
+
 
 
 
