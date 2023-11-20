@@ -56,7 +56,7 @@ const onChange = (key) => {
   return (
     
     <>
-      <div className="hero relative py-16 flex justify-center" id="faq">
+      <div className="hero relative pt-28 flex justify-center" id="faq">
         <div className="leftd"></div>
         <div className="rightt">
         <div className="top-[2%] mx-auto w-[100%] h-fit bg-[#FFFFFF] shadow-slate-800 shadow-lg rounded-lg p-4">
