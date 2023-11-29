@@ -44,14 +44,15 @@ function Pricing() {
                     </button>
                   </div>
                 </div>
-                <div className="right-box relative bg-primary-color rounded-xl p-4 h-[20rem] max-sm:h-fit">
+                <div className="right-box relative bg-primary-color rounded-xl p-4 h-[20rem]">
                   <div className="flex justify-between w-[35rem] max-sm:w-80">
                     <div className="flex flex-col">
-                      <h1 className="text-white leading-10">Unlimited</h1>
-                      <h2 className="text-white font-normal">$49/mo</h2>
-
+                      <div className="max-sm:flex max-sm:items-center max-sm:gap-2">
+                        <h1 className="text-white leading-10">Unlimited</h1>
+                        <h2 className="text-white font-normal">$49/mo</h2>
+                      </div>
                       <ul className="list-disc ">
-                        <div className="grid grid-cols-2 max-sm:grid max-sm:grid-cols-2 gap-0 text-white font-light">
+                        <div className="grid grid-cols-2 max-sm:grid max-sm:grid-cols-1 gap-0 text-white font-light">
                           <div>
                             <li className="mt-2 ">Feature lavel goes here</li>
                             <li className="mt-2">Feature lavel goes here</li>
@@ -76,7 +77,7 @@ function Pricing() {
                         Recomanded
                       </p>
                       <img
-                        className="w-28 max-sm:hidden absolute bottom-1 right-8"
+                        className="w-28 absolute bottom-1 right-8"
                         src={Avatar}
                         alt=""
                       />

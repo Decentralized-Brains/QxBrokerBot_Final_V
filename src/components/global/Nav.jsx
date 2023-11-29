@@ -45,26 +45,26 @@ const Nav = () => {
                 </div>
                 <nav
                     className={`${
-                        isMenuOpen ? "mb-20 top-2 bg-slate-600 p-6 absolute z-10 -right-4 w-full  flex max-sm:gap-4 md:hidden" : "hidden md:flex"
+                        isMenuOpen ? "mb-20 top-2 bg-primary-color p-6 absolute z-10 -right-4 w-full  flex max-sm:gap-4 md:hidden" : "hidden md:flex"
                     }  md:flex md:ml-auto mt-4 md:mt-0 gap-6 items-center text-xl font-jost justify-center`}
                 >
-                    <Link to={"/"} className="no-underline text-gray-900">
+                    <Link to={"/"} className="no-underline text-gray-900 max-sm:text-white">
                         Home
                     </Link>
 
-                    <Link to={"/about"} className="no-underline text-gray-900">
+                    <Link to={"/about"} className="no-underline text-gray-900 max-sm:text-white">
                     About
                     </Link>
 
-                    <Link to={"/pricing"} className="no-underline text-gray-900">
+                    <Link to={"/pricing"} className="no-underline text-gray-900 max-sm:text-white">
                         Pricing
                     </Link>
 
-                    <Link to={'/contact'} className="no-underline text-gray-900">
+                    <Link to={'/contact'} className="no-underline text-gray-900 max-sm:text-white">
                         Contact
                     </Link>
 
-                    <Link to={"/faq"} className="no-underline text-gray-900">
+                    <Link to={"/faq"} className="no-underline text-gray-900 max-sm:text-white">
                     FAQ
                     </Link>
                 </nav>

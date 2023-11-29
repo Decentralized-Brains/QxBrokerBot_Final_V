@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../global/Nav";
-
+import { FaTelegramPlane } from "react-icons/fa";
+import { IoIosMailUnread, IoLogoWhatsapp } from "react-icons/io";
 function Contact() {
   return (
     <>
@@ -20,9 +21,14 @@ function Contact() {
         
         <div className="w-[60%] max-sm:w-[100%]  h-fit flex gap-8 shadow-2xl rounded-xl mx-auto ">
           <div className="left-div max-sm:hidden overflow-hidden relative w-[30%] max-h-max bg-primary-color rounded-xl p-4">
-            <h5 className="text-white font-semibold">Contact Information</h5>
-            <p className="text-white">contact@gmail.com</p>
-            <span>icon</span>  <span>icon</span>
+            <h5 className="text-white text-3xl font-semibold">Contact Information</h5>
+            <p><a className="no-underline text-white text-lg" href="http://mailto:contact@gmail.com">contact@gmail.com</a> </p>
+            <div className="icons flex gap-2">
+            <span><FaTelegramPlane size={25} color="white"/></span>  
+            <span><IoIosMailUnread size={25} color="white"/></span>
+            <span>< IoLogoWhatsapp size={25} color="white"/></span>
+            </div>
+            
             <div class="w-36 h-36 bg-[#F5F5F5] opacity-30 rounded-full absolute  -bottom-12 -right-10"></div>
             <div class="w-20 h-20 bg-[#F5F5F5] opacity-20 rounded-full absolute  bottom-8 right-10"></div>
           </div>
