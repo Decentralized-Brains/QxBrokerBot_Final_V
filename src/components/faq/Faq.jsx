@@ -56,6 +56,7 @@ const onChange = (key) => {
   return (
     
     <>
+    <Nav />
       <div className="hero relative pt-28 flex justify-center" id="faq">
         <div className="leftd"></div>
         <div className="rightt">

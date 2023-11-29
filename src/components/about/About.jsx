@@ -1,11 +1,12 @@
 import React from "react";
+import Nav from "../global/Nav";
 
 function About() {
   return (
     <div id="about" className="">
-      <div className="hero ">
+      <div className="hero">
         
-        <div className="left relative">
+        <div className="left relative ">
           <div className="flex flex-col gap-6 max-sm:gap-12 max-sm:justify-center absolute top-10 mx-12 my-4 max-sm:top-0 max-sm:mx-4 max-sm:py-24">
             
             <div className="bg-white shadow-xl h-fit w-fit p-4 rounded-lg font-jost">
@@ -37,8 +38,8 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="abt">
-
+        <div className="abt ">
+            <Nav />
         </div>
       </div>
     </div>

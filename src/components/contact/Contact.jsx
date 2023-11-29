@@ -1,10 +1,14 @@
 import React from "react";
+import Nav from "../global/Nav";
 
 function Contact() {
   return (
-    <div id="contact" className="my-16">
+    <>
+    <Nav />
+    <div id="contact" className="max-sm:mt-24">
       <div className="">
         <div className="flex flex-col text-center mt-12">
+          
           <h1 className="font-jost font-semibold">
             Contact <span className="text-primary-color">Us</span>
           </h1>
@@ -85,6 +89,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

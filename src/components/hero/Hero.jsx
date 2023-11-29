@@ -5,12 +5,11 @@ import Rectanlge from "../assets/image/Rectangle 2.png";
 function Hero() {
   return (
     <div className="hero" id="home">
-      <div className="max-sm:hidden left relative"></div>
+      <div className="max-sm:hidden left"></div>
 
       <div className="right">
         <Nav />
         <div className="flex overflow-hidden h-[100vh] ">
- 
           <div className="">
             <div className="absolute mx-2 left-[10rem] max-sm:left-0 top-[8rem] md:left-[10%] md:top-[15%] flex gap-10 mt-16">
               <div>
@@ -20,14 +19,10 @@ function Hero() {
                   alt=""
                 />
               </div>
-
               <div className="flex flex-col gap-6 p-4 ">
                 <div className="w-full md:w-[40rem] max-sm:w-[20rem] max-sm:absolute max-sm:left-0 flex flex-col gap-6 p-4">
                   <h1 className="font-jost text-6xl font-bold">
-                    Quotex{" "}
-                    <span className="text-primary-color">
-                      Bot
-                    </span>
+                    Quotex <span className="text-primary-color">Bot</span>
                   </h1>
                   <p className="font-jost break-all text-paragraph-color text-lg">
                     Lorem ipsum dolor sit amet consectetur. At posuere sed
@@ -46,7 +41,7 @@ function Hero() {
                     <button className="bg-primary-color border-2 px-16 py-2 rounded-full">
                       Try Free
                     </button>
-                    <button className="border-2 px-16 py-2 text-primary-color font-bold rounded-full">
+                    <button className="border-2  px-16 py-2 text-primary-color max-sm:text-white font-bold rounded-full">
                       Buy Now
                     </button>
                   </div>

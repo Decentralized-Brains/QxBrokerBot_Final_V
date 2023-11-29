@@ -7,10 +7,10 @@ const Nav = () => {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
-
+    // absolute right-4 top-0 z-10
     return (
-        <header className="text-[#0C012D]">
-            <div className="container mt-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <header className="text-[#0C012D] ">
+            <div className="container  mt-10 right-4 relative z-0 mx-auto flex flex-wrap flex-col md:flex-row items-center">
                 <div className="flex justify-end items-center w-full">
                     {/* <Link to="/" className="text-gray-900 no-underline">
                         Your Logo
@@ -45,24 +45,28 @@ const Nav = () => {
                 </div>
                 <nav
                     className={`${
-                        isMenuOpen ? "flex max-sm:gap-4 md:hidden" : "hidden md:flex"
+                        isMenuOpen ? "mb-16  absolute z-10 right-4  flex max-sm:gap-4 md:hidden" : "hidden md:flex"
                     }  md:flex md:ml-auto mt-4 md:mt-0 gap-6 items-center text-xl font-jost justify-center`}
                 >
-                    <a href="#home" className="text-gray-900 no-underline">
+                    <Link to={"/"} className="no-underline text-gray-900">
                         Home
-                    </a>
-                    <a href="#about" className="text-gray-900 no-underline">
-                        About
-                    </a>
-                    <a href="#price" className="text-gray-900 no-underline">
+                    </Link>
+
+                    <Link to={"/about"} className="no-underline text-gray-900">
+                    About
+                    </Link>
+
+                    <Link to={"/pricing"} className="no-underline text-gray-900">
                         Pricing
-                    </a>
-                    <a href="#contact" className="text-gray-900 no-underline">
+                    </Link>
+
+                    <Link to={'/contact'} className="no-underline text-gray-900">
                         Contact
-                    </a>
-                    <a href="#faq" className="text-gray-900 no-underline">
-                        FAQ
-                    </a>
+                    </Link>
+
+                    <Link to={"/faq"} className="no-underline text-gray-900">
+                    FAQ
+                    </Link>
                 </nav>
             </div>
         </header>
