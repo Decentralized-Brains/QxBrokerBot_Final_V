@@ -38,7 +38,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="abt ">
+        <div className="abt">
             <Nav />
         </div>
       </div>

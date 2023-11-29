@@ -57,7 +57,7 @@ const onChange = (key) => {
     
     <>
     <Nav />
-      <div className="hero relative pt-28 flex justify-center" id="faq">
+      <div className="hero relative -z-10 pt-28 flex justify-center" id="faq">
         <div className="leftd"></div>
         <div className="rightt">
         <div className="top-[2%] mx-auto w-[100%] h-fit bg-[#FFFFFF] shadow-slate-800 shadow-lg rounded-lg p-4">
@@ -72,7 +72,6 @@ const onChange = (key) => {
               className="bg-[#ffffff] border-none mobile-width" 
               colorBorder="#ffffff"
               items={items}
-              
               defaultActiveKey={['1']}
               onClick={onChange}
             />

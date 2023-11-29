@@ -10,7 +10,7 @@ const Nav = () => {
     // absolute right-4 top-0 z-10
     return (
         <header className="text-[#0C012D] ">
-            <div className="container  mt-10 right-4 relative z-0 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <div className="container mt-10 right-4 relative z-0 mx-auto flex flex-wrap flex-col md:flex-row items-center">
                 <div className="flex justify-end items-center w-full">
                     {/* <Link to="/" className="text-gray-900 no-underline">
                         Your Logo
@@ -45,7 +45,7 @@ const Nav = () => {
                 </div>
                 <nav
                     className={`${
-                        isMenuOpen ? "mb-16  absolute z-10 right-4  flex max-sm:gap-4 md:hidden" : "hidden md:flex"
+                        isMenuOpen ? "mb-20 top-2 bg-slate-600 p-6 absolute z-10 -right-4 w-full  flex max-sm:gap-4 md:hidden" : "hidden md:flex"
                     }  md:flex md:ml-auto mt-4 md:mt-0 gap-6 items-center text-xl font-jost justify-center`}
                 >
                     <Link to={"/"} className="no-underline text-gray-900">

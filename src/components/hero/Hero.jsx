@@ -11,7 +11,7 @@ function Hero() {
         <Nav />
         <div className="flex overflow-hidden h-[100vh] ">
           <div className="">
-            <div className="absolute mx-2 left-[10rem] max-sm:left-0 top-[8rem] md:left-[10%] md:top-[15%] flex gap-10 mt-16">
+            <div className="absolute mx-2 left-[10rem] max-sm:left-0 md:left-[10%] md:top-[15%] flex gap-10 mt-16">
               <div>
                 <img
                   className="max-sm:hidden w-full mt-10 border-2 border-white rounded-x"
@@ -41,7 +41,7 @@ function Hero() {
                     <button className="bg-primary-color border-2 px-16 py-2 rounded-full">
                       Try Free
                     </button>
-                    <button className="border-2  px-16 py-2 text-primary-color max-sm:text-white font-bold rounded-full">
+                    <button className="border-2  px-16 py-2 text-primary-color max-sm:text-primary-color font-bold rounded-full">
                       Buy Now
                     </button>
                   </div>
