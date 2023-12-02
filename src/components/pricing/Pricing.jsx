@@ -52,7 +52,7 @@ function Pricing() {
                         <h2 className="text-white font-normal">$49/mo</h2>
                       </div>
                       <ul className="list-disc ">
-                        <div className="grid grid-cols-2 max-sm:grid max-sm:grid-cols-1 gap-0 text-white font-light">
+                        <div className="grid grid-cols-2 max-sm:grid max-sm:grid-cols-1 md:gap-6 text-white font-light">
                           <div>
                             <li className="mt-2 ">Feature lavel goes here</li>
                             <li className="mt-2">Feature lavel goes here</li>

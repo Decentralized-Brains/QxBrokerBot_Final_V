@@ -36,18 +36,18 @@ function Faq() {
 const items = [
   {
     key: '1',
-    label: 'This is panel header 1',
-    children: <p>{text}</p>,
+    label: 'How does Quotex Auto Trade Bot work',
+    children: <p>"It executes trades automatically based on predefined strategies without manual intervention, leveraging algorithms to analyze market conditions."</p>,
   },
   {
     key: '2',
-    label: 'This is panel header 2',
-    children: <p>{text}</p>,
+    label: 'Can I my Own Parameters with the bot?',
+    children: <p>"Yes, users can set their own parameters and strategies, allowing customization to align with individual trading preferences."</p>,
   },
   {
     key: '3',
-    label: 'This is panel header 3',
-    children: <p>{text}</p>,
+    label: 'Is using the auto bot risky',
+    children: <p>"Like any trading, there are risks involved. Understanding market dynamics and regularly monitoring the bot's performance is crucial to manage risks effectively"</p>,
   },
 ];
 const onChange = (key) => {

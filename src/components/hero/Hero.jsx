@@ -14,7 +14,7 @@ function Hero() {
             <div className="absolute mx-2 left-[10rem] max-sm:left-0 md:left-[10%] md:top-[15%] flex gap-10 mt-12">
               <div>
                 <img
-                  className="max-sm:hidden w-full mt-10 border-2 border-white rounded-x"
+                  className="max-sm:hidden w-full mt-10 border-2 border-white rounded-xl"
                   src={Rectanlge}
                   alt=""
                 />

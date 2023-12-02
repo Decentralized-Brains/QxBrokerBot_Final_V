@@ -18,9 +18,7 @@ function About() {
                 <span className="text-primary-color  ">Bot?</span>
               </h1>
               <p className="text-md text-[#666666]">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-                molestiae assumenda nisi, omnis ut pariatur debitis at esse et
-                in!
+              Quotex Auto Trade Bot is a tool on the Quotex platform that automatically executes trades based on preset strategies, removing the need for manual trading.
               </p>
             </div>
 
@@ -30,10 +28,10 @@ function About() {
                 <span className="text-primary-color ">Bot?</span>
               </h1>
               <ol className="text-[#666666] list-disc text-sm">
-                <li className="my-2 text-md">Your One Stop Bot Trading Management Platform</li>
-                <li className="my-2 text-md">Your One Stop Bot Trading Management Platform</li> 
-                <li className="my-2 text-md">Your One Stop Bot Trading Management Platform</li> 
-                <li className="my-2 text-md">Your One Stop Bot Trading Management Platform</li>
+                <li className="my-2 text-md">Executing strategies automatically without constant oversight.</li>
+                <li className="my-2 text-md">Rapidly executes trades based on predefined algorithms</li> 
+                <li className="my-2 text-md">Allows trading when the user is not actively monitoring the markets</li> 
+                <li className="my-2 text-md">Removes emotional decision-making, sticking to set strategies consistently.</li>
               </ol>
             </div>
           </div>
